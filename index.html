@@ -3,21 +3,26 @@
     <meta charset='utf-8'>
     <link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/4a53b49f-647c-4f0c-912e-7a5030ea65aa.css"/>    <title>hackers &amp; thinkers</title>
     <style>
-      #main {
-        width: 500px;
-        height: 380px;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        margin-left: -250px;
-        margin-top: -190px;
+      body {
+        margin: 0;
+        padding: 0;
+        font-size: 23px;
+      }
+      .hackers {
+        display: table;
+        width: 100%;
+        height: 100%;
+      }
+      .thinkers {
+        display: table-cell;
+        vertical-align: middle;
         text-align: center;
       }
       h1 {
         font-family:'GaramondITCW01-BookNarr 710007';
         font-weight: normal;
         font-size: 5em;
-        color: #444444;
+        color: #444;
       }
       h1 em {
         font-family:'GaramondITCW01-BookNarr 710010';
@@ -39,14 +44,16 @@
     </style>
   </head>
   <body>
-    <div id="main">
-      <p class="claim">We are a team of</p>
-      <h1>hackers<em>&amp;</em>thinkers</h1>
-      <p>
-        hackers <em>&amp;</em> thinkers UG (haftungsbeschränkt) i. G.
-        <br>
-        An der Bottm&uuml;hle 5, 50678 K&ouml;ln
-      </p>
+    <div class="hackers">
+      <div class="thinkers">
+        <p class="claim">We are a team of</p>
+        <h1>hackers<em>&amp;</em>thinkers</h1>
+        <p>
+          hackers <em>&amp;</em> thinkers UG (haftungsbeschränkt) i. G.
+          <br>
+          An der Bottm&uuml;hle 5, 50678 K&ouml;ln
+        </p>
+      </div>
     </div>
   </body>
 </html>
